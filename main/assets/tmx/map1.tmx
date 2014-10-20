@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="60" height="40" tilewidth="32" tileheight="32" backgroundcolor="#588037">
+  <image source="gfx/desert_tiled.png"/>
+  <tile id="30">
+   <properties>
+    <property name="cactus" value="true"/>
+   </properties>
+  </tile>
+
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3U6wrCMAwF4D6TiuLEK4j3TSeMTUH2/k9hCi0Lo6OOORr0/PigZXTkkJBYKRUDwF86kKPDSUBtfbiR1OEuoDbkRV4rM345b0KuJCelkXjeFORhpOz8FJDH18/SnMdk0sKAXEhEzubODQXkq8vZeUGWLUQeMwH5eM6M5dW9nZscI7L7wKbBVmBePscxy6qtPG9fnu9TVc24lJkua3ebVfd23/HfNq+0HvMdbGe0a1ZtraqZtntMSp/7wnvctL9D1/hNusd8d7mErrHP3C6hawMAAAAAAAAAAIAw3v+BwKKAJQAA
+  </data>
+ </layer>
+</map>

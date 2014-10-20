@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="atlas2" tilewidth="128" tileheight="128">
+  <image source="gfx/atlas2.png" trans="ff00ff" width="1025" height="896"/>
+  <tile id="0">
+   <properties>
+    <property name="flor" value="non"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="spawn" value="player"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="exit" value="player"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="tri_wall" value="br"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="tri_wall" value="bl"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="tri_wall" value="br"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="tri_wall" value="bl"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="tri_wall" value="tr"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="tri_wall" value="tl"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="tri_wall" value="tl"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="tri_wall" value="tr"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="spawn" value="circle"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="spawn" value="cross"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="spawn" value="star"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="spawn" value="triangle"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="spawn" value="hexagon"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="150" height="150">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cu07DMBiA0XRg6YIEEyBRdYEJeP+3oxkiopCmje3Gv6sznNHk4k+OlUYcu647AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAB34X3jcQCtsu4RhRbj2jdKV7H1c/R2ssuwzxx/rdfuryliK9HEVl0Nx6p9z9imqy3pqg264hZafg4eAtw/tu/q5eSrwN+fHmt8/tqKqeX1qnfotBXF+L1P6131tBXDmq6+r5zrNW3kOLdv11Uspdarrd+1z3WlrThqPgdTxi29Z9BVHC13NX6eW69iyenqoUvvI5X9VRuW9jFr5jq1k7Xmfnu2VsVzrolLraU2OD1G6rjh/DUVU85ak7tOleqq9j2kra4eF8YN56+rmCJ3tTRuOP9D51lY29x3u7W+k8ndl02vQ1ux1OwqZ+zctegqjlrPwZJdTd+P1r6nXJ7fnwvzm9JFibHnrkdXMdyijc8rx47Hf6w87ty12GPFkLN33mWOzRlv3x5brS5yx/sdJ7YWu3rq/n+HpalY+rl5TpjbnC5yxo+b0lVcW3/nWcLcdeiK0uytYmj1f7AcFtQ+N/K12iX3L7dNbQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAt+QX4o/qEkF8BAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="150" height="150">
+  <object name="gate_1" type="1_up_1" gid="12" x="11969" y="7514"/>
+ </objectgroup>
+</map>

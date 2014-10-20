@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="250" height="250" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="atlas2.png" tilewidth="128" tileheight="128" spacing="0" margin="0">
+  <image source="gfx/atlas2.png" trans="ff00ff" width="1024" height="896"/>
+    <tile id="0">
+     <properties>
+      <property name="place" value="flor"/>
+     </properties>
+    </tile>
+  <tile id="4">
+   <properties>
+    <property name="spawn" value="player"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="exit" value="player"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="spawn" value="triangle"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="spawn" value="circle"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="250" height="250">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cMQrDMBBFQTUpnCY3yB3c+P5HC2nFgkIwkvjMwDaycffYSm4NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9vKcPMB83/aOSaNzWEPnkE/nkE/nkK/q/F2c9XMOnlff0DmsYZ9DPp1DPp1DPp1DPp1Dvqrzqzjr5/XDOzqHPdjnkE/nkE/nkE/nkE/nkE/nkO/feyyjcY8F9mGfQz6dQz6dQ75ZnT+azmEV/3UGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4zwek8DSwkNADAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="250" height="250">
+  <object name="gate_1" type="1_up_3" gid="46" x="944" y="1114"/>
+  <object name="circle_1" type="gate_1" gid="46" x="907" y="941"/>
+  <object name="exit_1" type="player" gid="46" x="1010" y="1071"/>
+ </objectgroup>
+</map>

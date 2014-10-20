@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert_tiled6.png" tilewidth="32" tileheight="32" spacing="3" margin="2">
+  <image source="gfx/desert_tiled6.png" trans="ff00ff" width="281" height="211"/>
+  <tile id="0">
+   <properties>
+    <property name="spawn" value="box"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="spawn" value="player"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="spawn" value="circle"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="spawn" value="triangle"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="spawn" value="hexagon"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="switch" value="box"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="switch" value="circle"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="switch" value="free"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="exit" value="player"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="switch" value="triangle"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="switch" value="hexagon"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="switch" value="player"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WX2QoCMQxFo6LgCoq4gcPgg4r//4FaxmLQtE3SdlrwISh2O01vFi8AcPkzexBWmumbb4qsVr5Z5Xw1+w8z5uaj9B7Sft98U4f5uM34knG/2Hj38YXs+rL9yw6CNVJGyzdEe4yEnI1wvoQxxn/YjzeFH3Pqj9JjGxjX8sVq2Z6/cayhGPvMm9KcVGtez8WXol/JzWe0dVbuq9WfJD5bxKcxafxS63bQ1YPb+9N+N3YnzqBsDLw86OPDbJZpL2Dg5GsfY0jHD8SVionLyIkxM/5dM7W60miWExet8E6amD2CLuYxn6+Hi+XT7mXmT8CvvxL1B9/H1bPNC/NZjhZ+9VeD/07wm29z6C/2fUv7ivvOGr7cfqb4JOfY9VS/nEInrn5CYibvNo6xWO24eh5NjQ39b9O+fypGnKvO6LdtJF8sI+4VV/DpExeJ/OfSMkd31meuOaVyl+UbID7OnfvmM35pej6by2fY1tDVxxr5Ur7dE7O9wkQAGQAA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="40" height="40">
+  <object name="gate_1" type="2_up_3" gid="46" x="944" y="1114"/>
+  <object name="circle_1" type="gate_1" gid="46" x="784" y="972"/>
+  <object name="exit_1" type="player" gid="46" x="1010" y="1071"/>
+  <object name="box_1" type="gate_1" gid="46" x="721" y="1233"/>
+  <object name="circle_2" type="gate_2" gid="46" x="623" y="524"/>
+  <object name="hexagon_1" type="gate_2" gid="46" x="175" y="877"/>
+  <object name="gate_2" type="1_left_3" gid="46" x="313" y="755"/>
+  <object name="gate_3" type="1_down_3" gid="46" x="949" y="587"/>
+  <object name="gate_4" type="1_left_2" gid="46" x="781" y="243"/>
+  <object name="triangle_1" type="gate_3" gid="46" x="1043" y="719"/>
+  <object name="circle_3" type="gate_4" gid="46" x="914" y="399"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PanKlocekMain" >
+
+    <Button
+        android:id="@+id/txtBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="@string/back"
+        android:text="@string/Wstecz" />
+
+    <Button
+        android:id="@+id/b1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="@string/lvl1"
+        android:text="@string/pz1" />
+
+    <Button
+        android:id="@+id/b2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b1"
+        android:layout_toRightOf="@+id/b1"
+        android:onClick="@string/lvl2"
+        android:text="@string/pz2" />
+
+    <Button
+        android:id="@+id/b3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:onClick="@string/lvl3"
+        android:text="@string/pz3" />
+
+    <Button
+        android:id="@+id/b4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_below="@+id/b1"
+        android:onClick="@string/lvl4"
+        android:text="@string/pz4" />
+
+    <Button
+        android:id="@+id/b5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b4"
+        android:layout_alignBottom="@+id/b4"
+        android:layout_toRightOf="@+id/b4"
+        android:onClick="@string/lvl5"
+        android:text="@string/pz5" />
+
+    <Button
+        android:id="@+id/b6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b5"
+        android:layout_alignBottom="@+id/b5"
+        android:layout_toRightOf="@+id/b5"
+        android:onClick="@string/lvl6"
+        android:text="@string/pz6" />
+
+    <Button
+        android:id="@+id/b7"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b4"
+        android:layout_below="@+id/b4"
+        android:onClick="@string/lvl7"
+        android:text="@string/pz7" />
+
+    <Button
+        android:id="@+id/b8"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/b7"
+        android:layout_alignBottom="@+id/b7"
+        android:layout_toRightOf="@+id/b7"
+        android:onClick="@string/lvl8"
+        android:text="@string/pz8" />
+
+    <Button
+        android:id="@+id/b9"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b6"
+        android:layout_toRightOf="@+id/b8"
+        android:onClick="@string/lvl9"
+        android:text="@string/pz9" />
+
+</RelativeLayout>

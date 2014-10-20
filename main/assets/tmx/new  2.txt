@@ -1,0 +1,1549 @@
+A <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+ set error in percent, and number of steps (e.g.  .001, 30)
+.00001,30
+ main: tol,niter =    1.0000000000000001E-005          30
+ *********************************************
+ main: iter =            1
+ *********************************************
+ SELECT EXACT SOLUTION:
+ u = atan(a*(x-x0))...............0
+ u = (1-x)*(atan(a*(x-x0)+C)......1
+ u = x^a + (1-x)^b................2
+1
+ set parameters: a, x0
+39,.44
+ *************************************************
+ hp: ITERATION            1
+        NRDOFS =    17 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  38.87136
+hp_strategy: error_est,rnorm =  0.47557E+01 0.19218E+02
+        NRDOFS =    17 ERROR ESTIMATE IN PERCENT OF NORM =  49.74510
+        EFFICIENCY INDEX =    1.131   1.890
+ *********************************************
+ main: iter =            2
+ *********************************************
+ *************************************************
+ hp: ITERATION            2
+        NRDOFS =    18 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  22.83037
+hp_strategy: error_est,rnorm =  0.98412E+00 0.19230E+02
+        NRDOFS =    18 ERROR ESTIMATE IN PERCENT OF NORM =  22.62200
+        EFFICIENCY INDEX =    0.995   0.818
+ *********************************************
+ main: iter =            3
+ *********************************************
+ *************************************************
+ hp: ITERATION            3
+        NRDOFS =    19 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   4.31404
+hp_strategy: error_est,rnorm =  0.24481E+00 0.19240E+02
+        NRDOFS =    19 ERROR ESTIMATE IN PERCENT OF NORM =  11.27994
+        EFFICIENCY INDEX =    1.617   2.512
+ *********************************************
+ main: iter =            4
+ *********************************************
+ *************************************************
+ hp: ITERATION            4
+        NRDOFS =    21 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   3.05782
+hp_strategy: error_est,rnorm =  0.46344E-01 0.19247E+02
+        NRDOFS =    21 ERROR ESTIMATE IN PERCENT OF NORM =   4.90703
+        EFFICIENCY INDEX =    1.267   1.574
+ *********************************************
+ main: iter =            5
+ *********************************************
+ *************************************************
+ hp: ITERATION            5
+        NRDOFS =    23 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.86634
+hp_strategy: error_est,rnorm =  0.25490E-01 0.19247E+02
+        NRDOFS =    23 ERROR ESTIMATE IN PERCENT OF NORM =   3.63919
+        EFFICIENCY INDEX =    1.396   1.923
+ *********************************************
+ main: iter =            6
+ *********************************************
+ *************************************************
+ hp: ITERATION            6
+        NRDOFS =    26 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.10892
+hp_strategy: error_est,rnorm =  0.69466E-02 0.19247E+02
+        NRDOFS =    26 ERROR ESTIMATE IN PERCENT OF NORM =   1.89978
+        EFFICIENCY INDEX =    1.309   1.688
+ *********************************************
+ main: iter =            7
+ *********************************************
+ *************************************************
+ hp: ITERATION            7
+        NRDOFS =    31 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.30760
+hp_strategy: error_est,rnorm =  0.23118E-02 0.19247E+02
+        NRDOFS =    31 ERROR ESTIMATE IN PERCENT OF NORM =   1.09595
+        EFFICIENCY INDEX =    1.888   3.522
+ *********************************************
+ main: iter =            8
+ *********************************************
+ *************************************************
+ hp: ITERATION            8
+        NRDOFS =    32 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.15748
+hp_strategy: error_est,rnorm =  0.41942E-03 0.19247E+02
+        NRDOFS =    32 ERROR ESTIMATE IN PERCENT OF NORM =   0.46681
+        EFFICIENCY INDEX =    1.722   2.930
+ *********************************************
+ main: iter =            9
+ *********************************************
+ *************************************************
+ hp: ITERATION            9
+        NRDOFS =    35 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.13398
+hp_strategy: error_est,rnorm =  0.12637E-03 0.19247E+02
+        NRDOFS =    35 ERROR ESTIMATE IN PERCENT OF NORM =   0.25623
+        EFFICIENCY INDEX =    1.383   1.890
+ *********************************************
+ main: iter =           10
+ *********************************************
+ *************************************************
+ hp: ITERATION           10
+        NRDOFS =    39 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.06738
+hp_strategy: error_est,rnorm =  0.50077E-04 0.19247E+02
+        NRDOFS =    39 ERROR ESTIMATE IN PERCENT OF NORM =   0.16130
+        EFFICIENCY INDEX =    1.547   2.366
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           11
+ *********************************************
+ *************************************************
+ hp: ITERATION           11
+        NRDOFS =    42 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.02667
+hp_strategy: error_est,rnorm =  0.19106E-04 0.19247E+02
+        NRDOFS =    42 ERROR ESTIMATE IN PERCENT OF NORM =   0.09963
+        EFFICIENCY INDEX =    1.933   3.693
+ *********************************************
+ main: iter =           12
+ *********************************************
+ *************************************************
+ hp: ITERATION           12
+        NRDOFS =    44 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.01596
+hp_strategy: error_est,rnorm =  0.67137E-05 0.19247E+02
+        NRDOFS =    44 ERROR ESTIMATE IN PERCENT OF NORM =   0.05906
+        EFFICIENCY INDEX =    1.924   3.658
+ *********************************************
+ main: iter =           13
+ *********************************************
+ *************************************************
+ hp: ITERATION           13
+        NRDOFS =    51 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00549
+hp_strategy: error_est,rnorm =  0.14902E-05 0.19247E+02
+        NRDOFS =    51 ERROR ESTIMATE IN PERCENT OF NORM =   0.02782
+        EFFICIENCY INDEX =    2.251   5.008
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           14
+ *********************************************
+ *************************************************
+ hp: ITERATION           14
+        NRDOFS =    55 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00227
+hp_strategy: error_est,rnorm =  0.24398E-06 0.19247E+02
+        NRDOFS =    55 ERROR ESTIMATE IN PERCENT OF NORM =   0.01126
+        EFFICIENCY INDEX =    2.228   4.904
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           15
+ *********************************************
+ *************************************************
+ hp: ITERATION           15
+        NRDOFS =    66 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00188
+hp_strategy: error_est,rnorm =  0.86746E-07 0.19247E+02
+        NRDOFS =    66 ERROR ESTIMATE IN PERCENT OF NORM =   0.00671
+        EFFICIENCY INDEX =    1.891   3.536
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           16
+ *********************************************
+ *************************************************
+ hp: ITERATION           16
+        NRDOFS =    78 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00053
+hp_strategy: error_est,rnorm =  0.74312E-08 0.19247E+02
+        NRDOFS =    78 ERROR ESTIMATE IN PERCENT OF NORM =   0.00196
+        EFFICIENCY INDEX =    1.931   3.685
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           17
+ *********************************************
+ *************************************************
+ hp: ITERATION           17
+        NRDOFS =    81 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00050
+hp_strategy: error_est,rnorm =  0.27899E-08 0.19247E+02
+        NRDOFS =    81 ERROR ESTIMATE IN PERCENT OF NORM =   0.00120
+        EFFICIENCY INDEX =    1.546   2.362
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           18
+ *********************************************
+ *************************************************
+ hp: ITERATION           18
+        NRDOFS =    85 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00023
+hp_strategy: error_est,rnorm =  0.11404E-08 0.19247E+02
+        NRDOFS =    85 ERROR ESTIMATE IN PERCENT OF NORM =   0.00077
+        EFFICIENCY INDEX =    1.841   3.349
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           19
+ *********************************************
+ *************************************************
+ hp: ITERATION           19
+        NRDOFS =    87 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00013
+hp_strategy: error_est,rnorm =  0.59805E-09 0.19247E+02
+        NRDOFS =    87 ERROR ESTIMATE IN PERCENT OF NORM =   0.00056
+        EFFICIENCY INDEX =    2.092   4.327
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           20
+ *********************************************
+ *************************************************
+ hp: ITERATION           20
+        NRDOFS =    92 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00011
+hp_strategy: error_est,rnorm =  0.14690E-09 0.19247E+02
+        NRDOFS =    92 ERROR ESTIMATE IN PERCENT OF NORM =   0.00028
+        EFFICIENCY INDEX =    1.591   2.502
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           21
+ *********************************************
+ *************************************************
+ hp: ITERATION           21
+        NRDOFS =   105 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00003
+hp_strategy: error_est,rnorm =  0.69033E-10 0.19247E+02
+        NRDOFS =   105 ERROR ESTIMATE IN PERCENT OF NORM =   0.00019
+        EFFICIENCY INDEX =    2.701   7.209
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           22
+ *********************************************
+ *************************************************
+ hp: ITERATION           22
+        NRDOFS =   119 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00002
+hp_strategy: error_est,rnorm =  0.25139E-10 0.19247E+02
+        NRDOFS =   119 ERROR ESTIMATE IN PERCENT OF NORM =   0.00011
+        EFFICIENCY INDEX =    2.305   5.251
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           23
+ *********************************************
+ *************************************************
+ hp: ITERATION           23
+        NRDOFS =   127 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00002
+hp_strategy: error_est,rnorm =  0.61488E-11 0.19247E+02
+        NRDOFS =   127 ERROR ESTIMATE IN PERCENT OF NORM =   0.00006
+        EFFICIENCY INDEX =    1.773   3.106
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           24
+ *********************************************
+ *************************************************
+ hp: ITERATION           24
+        NRDOFS =   137 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00000
+hp_strategy: error_est,rnorm =  0.96478E-12 0.19247E+02
+        NRDOFS =   137 ERROR ESTIMATE IN PERCENT OF NORM =   0.00002
+        EFFICIENCY INDEX =    2.699   7.200
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           25
+ *********************************************
+ *************************************************
+ hp: ITERATION           25
+        NRDOFS =   148 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00000
+hp_strategy: error_est,rnorm =  0.39347E-12 0.19247E+02
+        NRDOFS =   148 ERROR ESTIMATE IN PERCENT OF NORM =   0.00001
+        EFFICIENCY INDEX =    2.836   7.948
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ MAX ORDER HAS BEEN REACHED
+ *********************************************
+ main: iter =           26
+ *********************************************
+ *************************************************
+ hp: ITERATION           26
+        NRDOFS =   155 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00000
+hp_strategy: error_est,rnorm =  0.15632E-12 0.19247E+02
+        NRDOFS =   155 ERROR ESTIMATE IN PERCENT OF NORM =   0.00001
+        EFFICIENCY INDEX =    2.793   7.708
+ hp_strategy: NO REFINEMENTS NEEDED !!
+ SELECT
+ QUIT .....................................0
+ 1D GRAPHICS ..............................1
+ AUTOMATIC hp-REFINEMENTS.................10
+
+
+
+
+
+
+
+B   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+
+
+
+ set error in percent, and number of steps (e.g.  .001, 30)
+.00001,30
+ main: tol,niter =    1.0000000000000001E-005          30
+ *********************************************
+ main: iter =            1
+ *********************************************
+ SELECT EXACT SOLUTION:
+ u = atan(a*(x-x0))...............0
+ u = (1-x)*(atan(a*(x-x0)+C)......1
+ u = x^a + (1-x)^b................2
+2
+ set parameters: a, b
+.69,.73
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            1
+        NRDOFS =    17 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   9.48610
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.46183E-01 0.48432E+00
+        NRDOFS =    17 ERROR ESTIMATE IN PERCENT OF NORM =  30.87987
+        EFFICIENCY INDEX =    1.804   1.737
+ *********************************************
+ main: iter =            2
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            2
+        NRDOFS =    19 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   8.88915
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.29433E-01 0.49577E+00
+        NRDOFS =    19 ERROR ESTIMATE IN PERCENT OF NORM =  24.36566
+        EFFICIENCY INDEX =    1.656   1.461
+ *********************************************
+ main: iter =            3
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            3
+        NRDOFS =    21 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   7.65130
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.23142E-01 0.50651E+00
+        NRDOFS =    21 ERROR ESTIMATE IN PERCENT OF NORM =  21.37501
+        EFFICIENCY INDEX =    1.671   1.490
+ *********************************************
+ main: iter =            4
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            4
+        NRDOFS =    23 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   6.60358
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.18364E-01 0.51462E+00
+        NRDOFS =    23 ERROR ESTIMATE IN PERCENT OF NORM =  18.89034
+        EFFICIENCY INDEX =    1.691   1.527
+ *********************************************
+ main: iter =            5
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            5
+        NRDOFS =    25 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   5.71267
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.14752E-01 0.52075E+00
+        NRDOFS =    25 ERROR ESTIMATE IN PERCENT OF NORM =  16.83131
+        EFFICIENCY INDEX =    1.716   1.572
+ *********************************************
+ main: iter =            6
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            6
+        NRDOFS =    27 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   4.95207
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.12026E-01 0.52538E+00
+        NRDOFS =    27 ERROR ESTIMATE IN PERCENT OF NORM =  15.12944
+        EFFICIENCY INDEX =    1.748   1.630
+ *********************************************
+ main: iter =            7
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            7
+        NRDOFS =    29 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   4.30063
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.99678E-02 0.52888E+00
+        NRDOFS =    29 ERROR ESTIMATE IN PERCENT OF NORM =  13.72837
+        EFFICIENCY INDEX =    1.787   1.703
+ *********************************************
+ main: iter =            8
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            8
+        NRDOFS =    31 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   3.74136
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.84135E-02 0.53154E+00
+        NRDOFS =    31 ERROR ESTIMATE IN PERCENT OF NORM =  12.58119
+        EFFICIENCY INDEX =    1.834   1.794
+ *********************************************
+ main: iter =            9
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION            9
+        NRDOFS =    33 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   3.26041
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.72391E-02 0.53355E+00
+        NRDOFS =    33 ERROR ESTIMATE IN PERCENT OF NORM =  11.64814
+        EFFICIENCY INDEX =    1.890   1.906
+ *********************************************
+ main: iter =           10
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           10
+        NRDOFS =    35 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.84642
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.63512E-02 0.53507E+00
+        NRDOFS =    35 ERROR ESTIMATE IN PERCENT OF NORM =  10.89492
+        EFFICIENCY INDEX =    1.956   2.042
+ *********************************************
+ main: iter =           11
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           11
+        NRDOFS =    36 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.59402
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.58656E-02 0.53596E+00
+        NRDOFS =    36 ERROR ESTIMATE IN PERCENT OF NORM =  10.46141
+        EFFICIENCY INDEX =    2.008   2.152
+ *********************************************
+ main: iter =           12
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           12
+        NRDOFS =    38 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.26911
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.53063E-02 0.53691E+00
+        NRDOFS =    38 ERROR ESTIMATE IN PERCENT OF NORM =   9.94142
+        EFFICIENCY INDEX =    2.093   2.337
+ *********************************************
+ main: iter =           13
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           13
+        NRDOFS =    41 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.97814
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.43462E-02 0.53763E+00
+        NRDOFS =    41 ERROR ESTIMATE IN PERCENT OF NORM =   8.99111
+        EFFICIENCY INDEX =    2.132   2.424
+ *********************************************
+ main: iter =           14
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           14
+        NRDOFS =    45 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.71855
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.32492E-02 0.53817E+00
+        NRDOFS =    45 ERROR ESTIMATE IN PERCENT OF NORM =   7.77009
+        EFFICIENCY INDEX =    2.126   2.409
+ *********************************************
+ main: iter =           15
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           15
+        NRDOFS =    48 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.50139
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.27137E-02 0.53858E+00
+        NRDOFS =    48 ERROR ESTIMATE IN PERCENT OF NORM =   7.09828
+        EFFICIENCY INDEX =    2.174   2.519
+ *********************************************
+ main: iter =           16
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           16
+        NRDOFS =    52 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.30597
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.20447E-02 0.53890E+00
+        NRDOFS =    52 ERROR ESTIMATE IN PERCENT OF NORM =   6.15968
+        EFFICIENCY INDEX =    2.172   2.511
+ *********************************************
+ main: iter =           17
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           17
+        NRDOFS =    55 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.18232
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.15870E-02 0.53908E+00
+        NRDOFS =    55 ERROR ESTIMATE IN PERCENT OF NORM =   5.42577
+        EFFICIENCY INDEX =    2.142   2.443
+ *********************************************
+ main: iter =           18
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           18
+        NRDOFS =    59 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.02808
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.12069E-02 0.53927E+00
+        NRDOFS =    59 ERROR ESTIMATE IN PERCENT OF NORM =   4.73067
+        EFFICIENCY INDEX =    2.145   2.448
+ *********************************************
+ main: iter =           19
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           19
+        NRDOFS =    63 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.89456
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.92232E-03 0.53942E+00
+        NRDOFS =    63 ERROR ESTIMATE IN PERCENT OF NORM =   4.13500
+        EFFICIENCY INDEX =    2.150   2.459
+ *********************************************
+ main: iter =           20
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           20
+        NRDOFS =    66 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.78250
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.77906E-03 0.53953E+00
+        NRDOFS =    66 ERROR ESTIMATE IN PERCENT OF NORM =   3.79995
+        EFFICIENCY INDEX =    2.204   2.583
+ *********************************************
+ main: iter =           21
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           21
+        NRDOFS =    70 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.68172
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.59971E-03 0.53962E+00
+        NRDOFS =    70 ERROR ESTIMATE IN PERCENT OF NORM =   3.33370
+        EFFICIENCY INDEX =    2.211   2.601
+ *********************************************
+ main: iter =           22
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           22
+        NRDOFS =    74 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.59443
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.46543E-03 0.53968E+00
+        NRDOFS =    74 ERROR ESTIMATE IN PERCENT OF NORM =   2.93669
+        EFFICIENCY INDEX =    2.223   2.627
+ *********************************************
+ main: iter =           23
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           23
+        NRDOFS =    77 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.53903
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.37248E-03 0.53972E+00
+        NRDOFS =    77 ERROR ESTIMATE IN PERCENT OF NORM =   2.62703
+        EFFICIENCY INDEX =    2.208   2.591
+ *********************************************
+ main: iter =           24
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           24
+        NRDOFS =    81 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.47019
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.29492E-03 0.53976E+00
+        NRDOFS =    81 ERROR ESTIMATE IN PERCENT OF NORM =   2.33748
+        EFFICIENCY INDEX =    2.230   2.643
+ *********************************************
+ main: iter =           25
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           25
+        NRDOFS =    85 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.41071
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.23675E-03 0.53979E+00
+        NRDOFS =    85 ERROR ESTIMATE IN PERCENT OF NORM =   2.09426
+        EFFICIENCY INDEX =    2.258   2.711
+ *********************************************
+ main: iter =           26
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           26
+        NRDOFS =    88 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.36092
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.20731E-03 0.53981E+00
+        NRDOFS =    88 ERROR ESTIMATE IN PERCENT OF NORM =   1.95971
+        EFFICIENCY INDEX =    2.330   2.887
+ *********************************************
+ main: iter =           27
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           27
+        NRDOFS =    92 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.31637
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.17064E-03 0.53983E+00
+        NRDOFS =    92 ERROR ESTIMATE IN PERCENT OF NORM =   1.77793
+        EFFICIENCY INDEX =    2.371   2.988
+ *********************************************
+ main: iter =           28
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           28
+        NRDOFS =    96 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.27802
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.14317E-03 0.53984E+00
+        NRDOFS =    96 ERROR ESTIMATE IN PERCENT OF NORM =   1.62854
+        EFFICIENCY INDEX =    2.420   3.114
+ *********************************************
+ main: iter =           29
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           29
+        NRDOFS =   100 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.25197
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.11600E-03 0.53985E+00
+        NRDOFS =   100 ERROR ESTIMATE IN PERCENT OF NORM =   1.46584
+        EFFICIENCY INDEX =    2.412   3.092
+ *********************************************
+ main: iter =           30
+ *********************************************
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+ *************************************************
+ hp: ITERATION           30
+        NRDOFS =   106 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.21907
+ elem_load: INCREASE maxlist
+ elem_load: INCREASE maxlist
+hp_strategy: error_est,rnorm =  0.88011E-04 0.53986E+00
+        NRDOFS =   106 ERROR ESTIMATE IN PERCENT OF NORM =   1.27681
+        EFFICIENCY INDEX =    2.414   3.098
+
+
+
+
+
+
+C   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+ SELECT SOLUTION: (matching input!!!)
+ u = atan(a*(x-x0)).................1
+ u = x^2/3..........................2
+1
+ set alpha
+43
+ set x0,y0 (outside [0,1]^2)
+1.56,-1.48
+ SELECT
+ QUIT .....................................0
+    
+ GEOMETRY GRAPHICS ........................1
+ 2D GRAPHICS ..............................2
+    
+ SOLUTION OF BVP...........................3
+ DUMPOUT...................................5
+ RESULT....................................6
+ LESZEKs TESTS............................10
+ COMPUTE ERROR............................11
+ AUTOMATIC h -REFINEMENTS.................15
+ AUTOMATIC hp-REFINEMENTS STRATEGY........20
+20
+ main: SET tol IN PERCENT,niter
+.00001,30
+ main: tol,niter =    1.0000000000000001E-005          30
+ *********************************************
+ main: iter =            1
+ *********************************************
+ *************************************************
+ hp: ITERATION            1
+        NRDOFS =    49 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  65.64550
+hp_strategy: error_est,rnorm =  0.23831E+02 0.68371E+02
+        NRDOFS =    49 ERROR ESTIMATE IN PERCENT OF NORM =  59.03852
+        EFFICIENCY INDEX =    0.948   0.841
+ hp_strategy: edge_rate_max =    4.9016502303532619     
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     4    16 0.58558E+00
+ SCALE EXCEEDED
+ *********************************************
+ main: iter =            2
+ *********************************************
+ *************************************************
+ hp: ITERATION            2
+        NRDOFS =    96 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  47.98002
+hp_strategy: error_est,rnorm =  0.16370E+02 0.76599E+02
+        NRDOFS =    96 ERROR ESTIMATE IN PERCENT OF NORM =  46.22892
+        EFFICIENCY INDEX =    0.982   0.953
+ hp_strategy: edge_rate_max =    2.5723108431757939     
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     1    17 0.60406E+00
+ *********************************************
+ main: iter =            3
+ *********************************************
+ *************************************************
+ hp: ITERATION            3
+        NRDOFS =   139 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  30.44325
+hp_strategy: error_est,rnorm =  0.69978E+01 0.77989E+02
+        NRDOFS =   139 ERROR ESTIMATE IN PERCENT OF NORM =  29.95468
+        EFFICIENCY INDEX =    0.992   0.982
+ hp_strategy: edge_rate_max =    1.1208441244810714     
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     1    17 0.22653E+00
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ SCALE EXCEEDED
+ *********************************************
+ main: iter =            4
+ *********************************************
+ *************************************************
+ hp: ITERATION            4
+        NRDOFS =   203 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  22.11788
+hp_strategy: error_est,rnorm =  0.37638E+01 0.78174E+02
+        NRDOFS =   203 ERROR ESTIMATE IN PERCENT OF NORM =  21.94222
+        EFFICIENCY INDEX =    0.996   0.992
+project_edge: Rate,rate1 =  0.41228E-03 0.73656E-03
+project_edge: Rate,rate1 =  0.27173E-07 0.73602E-07
+project_edge: Rate,rate1 =  0.41317E-04 0.49750E-02
+project_edge: Rate,rate1 =  0.13830E-02 0.26433E-02
+ hp_strategy: edge_rate_max =    1.3141397787900868     
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     4   116 0.39721E+00
+ *********************************************
+ main: iter =            5
+ *********************************************
+ *************************************************
+ hp: ITERATION            5
+        NRDOFS =   209 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  20.59197
+hp_strategy: error_est,rnorm =  0.32620E+01 0.78182E+02
+        NRDOFS =   209 ERROR ESTIMATE IN PERCENT OF NORM =  20.42609
+        EFFICIENCY INDEX =    0.996   0.992
+project_edge: Rate,rate1 =  0.73538E-03 0.89473E-03
+project_edge: Rate,rate1 =  0.33746E-07 0.86110E-07
+project_edge: Rate,rate1 =  0.41317E-04 0.49750E-02
+project_edge: Rate,rate1 =  0.13830E-02 0.26433E-02
+ hp_strategy: edge_rate_max =   0.30386010952101733     
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     4   116 0.16020E+00
+ *********************************************
+ main: iter =            6
+ *********************************************
+ *************************************************
+ hp: ITERATION            6
+        NRDOFS =   272 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =  13.26710
+hp_strategy: error_est,rnorm =  0.13689E+01 0.78226E+02
+        NRDOFS =   272 ERROR ESTIMATE IN PERCENT OF NORM =  13.22836
+        EFFICIENCY INDEX =    0.999   0.997
+project_edge: Rate,rate1 =  0.94060E-03 0.10045E-02
+project_edge: Rate,rate1 =  0.22087E-08 0.24159E-08
+project_edge: Rate,rate1 =  0.76169E-06 0.10162E-05
+project_edge: Rate,rate1 =  0.40505E-04 0.49773E-02
+project_edge: Rate,rate1 =  0.13831E-02 0.26433E-02
+ hp_strategy: edge_rate_max =    9.1891497449614279E-002
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     4   116 0.52666E-01
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =            7
+ *********************************************
+ *************************************************
+ hp: ITERATION            7
+        NRDOFS =   320 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   9.63211
+hp_strategy: error_est,rnorm =  0.72306E+00 0.78233E+02
+        NRDOFS =   320 ERROR ESTIMATE IN PERCENT OF NORM =   9.61378
+        EFFICIENCY INDEX =    0.999   0.998
+project_edge: Rate,rate1 =  0.22144E-08 0.24176E-08
+project_edge: Rate,rate1 =  0.76003E-06 0.10163E-05
+project_edge: Rate,rate1 =  0.40433E-04 0.49774E-02
+project_edge: Rate,rate1 =  0.13831E-02 0.26433E-02
+ hp_strategy: edge_rate_max =    3.1129187196406252E-002
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    56   166 0.21304E-01
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =            8
+ *********************************************
+ *************************************************
+ hp: ITERATION            8
+        NRDOFS =   478 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   6.19526
+hp_strategy: error_est,rnorm =  0.29937E+00 0.78239E+02
+        NRDOFS =   478 ERROR ESTIMATE IN PERCENT OF NORM =   6.18576
+        EFFICIENCY INDEX =    0.999   0.998
+project_edge: Rate,rate1 =  0.32149E-03 0.49370E-03
+project_edge: Rate,rate1 =  0.13731E-02 0.14437E-02
+project_edge: Rate,rate1 =  0.14015E-02 0.14957E-02
+project_edge: Rate,rate1 =  0.25062E-04 0.47815E-02
+ hp_strategy: edge_rate_max =    2.4600830154941210E-002
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    87   381 0.81948E-02
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =            9
+ *********************************************
+ *************************************************
+ hp: ITERATION            9
+        NRDOFS =   511 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   5.24952
+hp_strategy: error_est,rnorm =  0.21502E+00 0.78239E+02
+        NRDOFS =   511 ERROR ESTIMATE IN PERCENT OF NORM =   5.24243
+        EFFICIENCY INDEX =    0.999   0.999
+project_edge: Rate,rate1 =  0.32401E-03 0.49230E-03
+project_edge: Rate,rate1 =  0.13730E-02 0.14436E-02
+project_edge: Rate,rate1 =  0.14015E-02 0.14956E-02
+project_edge: Rate,rate1 =  0.40647E-04 0.16781E-03
+project_edge: Rate,rate1 =  0.19227E-04 0.46441E-02
+ hp_strategy: edge_rate_max =    8.3482599886326152E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    22   194 0.27103E-02
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           10
+ *********************************************
+ *************************************************
+ hp: ITERATION           10
+        NRDOFS =   781 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   3.33309
+hp_strategy: error_est,rnorm =  0.86835E-01 0.78240E+02
+        NRDOFS =   781 ERROR ESTIMATE IN PERCENT OF NORM =   3.33146
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.22979E-03 0.47169E-03
+project_edge: Rate,rate1 =  0.14288E-06 0.24537E-06
+project_edge: Rate,rate1 =  0.17832E-04 0.17932E-04
+project_edge: Rate,rate1 =  0.40207E-05 0.66129E-05
+project_edge: Rate,rate1 =  0.79360E-05 0.70272E-04
+project_edge: Rate,rate1 =  0.85843E-04 0.11716E-03
+project_edge: Rate,rate1 =  0.11410E-04 0.71654E-04
+ hp_strategy: edge_rate_max =    2.4763990639055163E-002
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   122   166 0.41601E-02
+ *********************************************
+ main: iter =           11
+ *********************************************
+ *************************************************
+ hp: ITERATION           11
+        NRDOFS =   787 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   3.08111
+hp_strategy: error_est,rnorm =  0.74198E-01 0.78240E+02
+        NRDOFS =   787 ERROR ESTIMATE IN PERCENT OF NORM =   3.07952
+        EFFICIENCY INDEX =    1.000   0.999
+project_edge: Rate,rate1 =  0.22979E-03 0.47169E-03
+project_edge: Rate,rate1 =  0.14288E-06 0.24537E-06
+project_edge: Rate,rate1 =  0.17832E-04 0.17932E-04
+project_edge: Rate,rate1 =  0.40207E-05 0.66129E-05
+project_edge: Rate,rate1 =  0.79344E-05 0.70273E-04
+project_edge: Rate,rate1 =  0.85843E-04 0.11716E-03
+project_edge: Rate,rate1 =  0.11410E-04 0.71654E-04
+ hp_strategy: edge_rate_max =    4.9825936951745234E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   142   152 0.18395E-02
+ *********************************************
+ main: iter =           12
+ *********************************************
+ *************************************************
+ hp: ITERATION           12
+        NRDOFS =   858 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.54080
+hp_strategy: error_est,rnorm =  0.50497E-01 0.78240E+02
+        NRDOFS =   858 ERROR ESTIMATE IN PERCENT OF NORM =   2.54051
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.25200E-03 0.47781E-03
+project_edge: Rate,rate1 =  0.14288E-06 0.24537E-06
+project_edge: Rate,rate1 =  0.17832E-04 0.17932E-04
+project_edge: Rate,rate1 =  0.92844E-05 0.23953E-04
+project_edge: Rate,rate1 =  0.39777E-05 0.65842E-05
+project_edge: Rate,rate1 =  0.79344E-05 0.70273E-04
+project_edge: Rate,rate1 =  0.85843E-04 0.11716E-03
+project_edge: Rate,rate1 =  0.11003E-04 0.71080E-04
+project_edge: Rate,rate1 =  0.91876E-06 0.72639E-04
+project_edge: Rate,rate1 =  0.83245E-05 0.13545E-04
+ hp_strategy: edge_rate_max =    4.5369189656530983E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   100   357 0.58609E-03
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           13
+ *********************************************
+ *************************************************
+ hp: ITERATION           13
+        NRDOFS =   910 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.24549
+hp_strategy: error_est,rnorm =  0.39433E-01 0.78240E+02
+        NRDOFS =   910 ERROR ESTIMATE IN PERCENT OF NORM =   2.24500
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.25423E-03 0.47692E-03
+project_edge: Rate,rate1 =  0.14247E-06 0.24538E-06
+project_edge: Rate,rate1 =  0.17477E-04 0.17743E-04
+project_edge: Rate,rate1 =  0.10244E-04 0.24666E-04
+project_edge: Rate,rate1 =  0.39777E-05 0.65842E-05
+project_edge: Rate,rate1 =  0.83566E-04 0.11318E-03
+project_edge: Rate,rate1 =  0.10883E-04 0.70960E-04
+project_edge: Rate,rate1 =  0.91975E-06 0.72648E-04
+project_edge: Rate,rate1 =  0.83259E-05 0.13546E-04
+ hp_strategy: edge_rate_max =    1.5410073772240318E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.49056E-03
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           14
+ *********************************************
+ *************************************************
+ hp: ITERATION           14
+        NRDOFS =  1080 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.86325
+hp_strategy: error_est,rnorm =  0.27163E-01 0.78240E+02
+        NRDOFS =  1080 ERROR ESTIMATE IN PERCENT OF NORM =   1.86328
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.20120E-06 0.26973E-06
+project_edge: Rate,rate1 =  0.17680E-04 0.17822E-04
+project_edge: Rate,rate1 =  0.10077E-04 0.24542E-04
+project_edge: Rate,rate1 =  0.41521E-05 0.66553E-05
+project_edge: Rate,rate1 =  0.79381E-04 0.11081E-03
+project_edge: Rate,rate1 =  0.51353E-10 0.25678E-09
+project_edge: Rate,rate1 =  0.71244E-05 0.83871E-05
+project_edge: Rate,rate1 =  0.22118E-05 0.26835E-05
+project_edge: Rate,rate1 =  0.11933E-04 0.70555E-04
+project_edge: Rate,rate1 =  0.94348E-06 0.72358E-04
+project_edge: Rate,rate1 =  0.82072E-05 0.13443E-04
+ hp_strategy: edge_rate_max =    1.6980776524310212E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.49106E-03
+ *********************************************
+ main: iter =           15
+ *********************************************
+ *************************************************
+ hp: ITERATION           15
+        NRDOFS =  1116 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.83122
+
+
+
+
+.....................
+
+
+ main: iter =           13
+ *********************************************
+ *************************************************
+ hp: ITERATION           13
+        NRDOFS =   910 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   2.24549
+hp_strategy: error_est,rnorm =  0.39433E-01 0.78240E+02
+        NRDOFS =   910 ERROR ESTIMATE IN PERCENT OF NORM =   2.24500
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.25423E-03 0.47692E-03
+project_edge: Rate,rate1 =  0.14247E-06 0.24538E-06
+project_edge: Rate,rate1 =  0.17477E-04 0.17743E-04
+project_edge: Rate,rate1 =  0.10244E-04 0.24666E-04
+project_edge: Rate,rate1 =  0.39777E-05 0.65842E-05
+project_edge: Rate,rate1 =  0.83566E-04 0.11318E-03
+project_edge: Rate,rate1 =  0.10883E-04 0.70960E-04
+project_edge: Rate,rate1 =  0.91975E-06 0.72648E-04
+project_edge: Rate,rate1 =  0.83259E-05 0.13546E-04
+ hp_strategy: edge_rate_max =    1.5410073772240318E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.49056E-03
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           14
+ *********************************************
+ *************************************************
+ hp: ITERATION           14
+        NRDOFS =  1080 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.86325
+hp_strategy: error_est,rnorm =  0.27163E-01 0.78240E+02
+        NRDOFS =  1080 ERROR ESTIMATE IN PERCENT OF NORM =   1.86328
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.20120E-06 0.26973E-06
+project_edge: Rate,rate1 =  0.17680E-04 0.17822E-04
+project_edge: Rate,rate1 =  0.10077E-04 0.24542E-04
+project_edge: Rate,rate1 =  0.41521E-05 0.66553E-05
+project_edge: Rate,rate1 =  0.79381E-04 0.11081E-03
+project_edge: Rate,rate1 =  0.51353E-10 0.25678E-09
+project_edge: Rate,rate1 =  0.71244E-05 0.83871E-05
+project_edge: Rate,rate1 =  0.22118E-05 0.26835E-05
+project_edge: Rate,rate1 =  0.11933E-04 0.70555E-04
+project_edge: Rate,rate1 =  0.94348E-06 0.72358E-04
+project_edge: Rate,rate1 =  0.82072E-05 0.13443E-04
+ hp_strategy: edge_rate_max =    1.6980776524310212E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.49106E-03
+ *********************************************
+ main: iter =           15
+ *********************************************
+ *************************************************
+ hp: ITERATION           15
+        NRDOFS =  1116 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.83122
+hp_strategy: error_est,rnorm =  0.26239E-01 0.78240E+02
+        NRDOFS =  1116 ERROR ESTIMATE IN PERCENT OF NORM =   1.83130
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.20120E-06 0.26973E-06
+project_edge: Rate,rate1 =  0.17680E-04 0.17822E-04
+project_edge: Rate,rate1 =  0.10077E-04 0.24542E-04
+project_edge: Rate,rate1 =  0.41528E-05 0.66557E-05
+project_edge: Rate,rate1 =  0.79381E-04 0.11081E-03
+project_edge: Rate,rate1 =  0.51438E-10 0.25688E-09
+project_edge: Rate,rate1 =  0.21816E-10 0.31057E-10
+project_edge: Rate,rate1 =  0.71244E-05 0.83871E-05
+project_edge: Rate,rate1 =  0.22118E-05 0.26835E-05
+project_edge: Rate,rate1 =  0.11933E-04 0.70555E-04
+project_edge: Rate,rate1 =  0.94351E-06 0.72358E-04
+project_edge: Rate,rate1 =  0.82070E-05 0.13443E-04
+ hp_strategy: edge_rate_max =    5.2122695405971476E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.37010E-03
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           16
+ *********************************************
+ *************************************************
+ hp: ITERATION           16
+        NRDOFS =  1364 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.26663
+hp_strategy: error_est,rnorm =  0.12551E-01 0.78240E+02
+        NRDOFS =  1364 ERROR ESTIMATE IN PERCENT OF NORM =   1.26658
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.39370E-07 0.12579E-06
+project_edge: Rate,rate1 =  0.19581E-06 0.26853E-06
+project_edge: Rate,rate1 =  0.17597E-04 0.17744E-04
+project_edge: Rate,rate1 =  0.10606E-04 0.24891E-04
+project_edge: Rate,rate1 =  0.34862E-07 0.10466E-06
+project_edge: Rate,rate1 =  0.41165E-05 0.67357E-05
+project_edge: Rate,rate1 =  0.79260E-04 0.11050E-03
+project_edge: Rate,rate1 =  0.40408E-05 0.93996E-05
+project_edge: Rate,rate1 =  0.71243E-05 0.83871E-05
+project_edge: Rate,rate1 =  0.22228E-05 0.26987E-05
+project_edge: Rate,rate1 =  0.11973E-04 0.70495E-04
+project_edge: Rate,rate1 =  0.87095E-06 0.71831E-04
+project_edge: Rate,rate1 =  0.81700E-05 0.13450E-04
+project_edge: Rate,rate1 =  0.42722E-10 0.57769E-07
+ hp_strategy: edge_rate_max =    4.5015383194042092E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    31   452 0.12895E-03
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           17
+ *********************************************
+ *************************************************
+ hp: ITERATION           17
+        NRDOFS =  1441 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   1.16880
+hp_strategy: error_est,rnorm =  0.10688E-01 0.78240E+02
+        NRDOFS =  1441 ERROR ESTIMATE IN PERCENT OF NORM =   1.16877
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.34948E-07 0.12248E-06
+project_edge: Rate,rate1 =  0.19548E-06 0.26858E-06
+project_edge: Rate,rate1 =  0.10625E-04 0.24910E-04
+project_edge: Rate,rate1 =  0.34860E-07 0.10466E-06
+project_edge: Rate,rate1 =  0.41167E-05 0.67356E-05
+project_edge: Rate,rate1 =  0.79227E-04 0.11033E-03
+project_edge: Rate,rate1 =  0.40415E-05 0.94003E-05
+project_edge: Rate,rate1 =  0.71242E-05 0.83871E-05
+project_edge: Rate,rate1 =  0.22228E-05 0.26987E-05
+project_edge: Rate,rate1 =  0.11973E-04 0.70495E-04
+project_edge: Rate,rate1 =  0.88241E-06 0.71795E-04
+project_edge: Rate,rate1 =  0.81539E-05 0.13446E-04
+project_edge: Rate,rate1 =  0.42724E-10 0.57769E-07
+ hp_strategy: edge_rate_max =    1.5210463194510214E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     7   116 0.87787E-04
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ SCALE EXCEEDED
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           18
+ *********************************************
+ *************************************************
+ hp: ITERATION           18
+        NRDOFS =  1651 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.73774
+hp_strategy: error_est,rnorm =  0.42540E-02 0.78240E+02
+        NRDOFS =  1651 ERROR ESTIMATE IN PERCENT OF NORM =   0.73737
+        EFFICIENCY INDEX =    1.000   0.999
+project_edge: Rate,rate1 =  0.15396E-04 0.40452E-04
+project_edge: Rate,rate1 =  0.34874E-07 0.12240E-06
+project_edge: Rate,rate1 =  0.19175E-06 0.26882E-06
+project_edge: Rate,rate1 =  0.26599E-08 0.45539E-08
+project_edge: Rate,rate1 =  0.10734E-04 0.24882E-04
+project_edge: Rate,rate1 =  0.36375E-07 0.10263E-06
+project_edge: Rate,rate1 =  0.41093E-05 0.67307E-05
+project_edge: Rate,rate1 =  0.40402E-05 0.93960E-05
+project_edge: Rate,rate1 =  0.73069E-05 0.84653E-05
+project_edge: Rate,rate1 =  0.20958E-05 0.24964E-05
+project_edge: Rate,rate1 =  0.81468E-05 0.13441E-04
+project_edge: Rate,rate1 =  0.76345E-08 0.50261E-07
+ hp_strategy: edge_rate_max =    5.6300374289903182E-003
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     9   579 0.53248E-03
+ *********************************************
+ main: iter =           19
+ *********************************************
+ *************************************************
+ hp: ITERATION           19
+        NRDOFS =  1669 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.62876
+hp_strategy: error_est,rnorm =  0.30947E-02 0.78240E+02
+        NRDOFS =  1669 ERROR ESTIMATE IN PERCENT OF NORM =   0.62892
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.16053E-04 0.40940E-04
+project_edge: Rate,rate1 =  0.29576E-08 0.31367E-08
+project_edge: Rate,rate1 =  0.34874E-07 0.12240E-06
+project_edge: Rate,rate1 =  0.19175E-06 0.26882E-06
+project_edge: Rate,rate1 =  0.26599E-08 0.45540E-08
+project_edge: Rate,rate1 =  0.10734E-04 0.24882E-04
+project_edge: Rate,rate1 =  0.37315E-07 0.10341E-06
+project_edge: Rate,rate1 =  0.41093E-05 0.67307E-05
+project_edge: Rate,rate1 =  0.40402E-05 0.93960E-05
+project_edge: Rate,rate1 =  0.73069E-05 0.84653E-05
+project_edge: Rate,rate1 =  0.20958E-05 0.24964E-05
+project_edge: Rate,rate1 =  0.81468E-05 0.13441E-04
+project_edge: Rate,rate1 =  0.76345E-08 0.50261E-07
+ hp_strategy: edge_rate_max =    8.5701580318073333E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =     9   579 0.57320E-04
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           20
+ *********************************************
+ *************************************************
+ hp: ITERATION           20
+        NRDOFS =  1723 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.52136
+hp_strategy: error_est,rnorm =  0.21285E-02 0.78240E+02
+        NRDOFS =  1723 ERROR ESTIMATE IN PERCENT OF NORM =   0.52159
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.16266E-04 0.41101E-04
+project_edge: Rate,rate1 =  0.22254E-05 0.39228E-05
+project_edge: Rate,rate1 =  0.85649E-06 0.47151E-05
+project_edge: Rate,rate1 =  0.34874E-07 0.12240E-06
+project_edge: Rate,rate1 =  0.19212E-06 0.26881E-06
+project_edge: Rate,rate1 =  0.26599E-08 0.45540E-08
+project_edge: Rate,rate1 =  0.10734E-04 0.24882E-04
+project_edge: Rate,rate1 =  0.38114E-07 0.10326E-06
+project_edge: Rate,rate1 =  0.40404E-05 0.93961E-05
+project_edge: Rate,rate1 =  0.73069E-05 0.84653E-05
+project_edge: Rate,rate1 =  0.20958E-05 0.24964E-05
+project_edge: Rate,rate1 =  0.81468E-05 0.13441E-04
+project_edge: Rate,rate1 =  0.76345E-08 0.50261E-07
+ hp_strategy: edge_rate_max =    2.0131061873486137E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   133   379 0.30446E-04
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           21
+ *********************************************
+ *************************************************
+ hp: ITERATION           21
+        NRDOFS =  1791 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.46273
+hp_strategy: error_est,rnorm =  0.16771E-02 0.78240E+02
+        NRDOFS =  1791 ERROR ESTIMATE IN PERCENT OF NORM =   0.46298
+        EFFICIENCY INDEX =    1.000   1.001
+project_edge: Rate,rate1 =  0.16275E-04 0.41084E-04
+project_edge: Rate,rate1 =  0.22235E-05 0.39169E-05
+project_edge: Rate,rate1 =  0.85718E-06 0.47148E-05
+project_edge: Rate,rate1 =  0.34736E-07 0.12243E-06
+project_edge: Rate,rate1 =  0.19212E-06 0.26881E-06
+project_edge: Rate,rate1 =  0.26499E-08 0.45495E-08
+project_edge: Rate,rate1 =  0.10724E-04 0.24870E-04
+project_edge: Rate,rate1 =  0.37997E-07 0.10328E-06
+project_edge: Rate,rate1 =  0.40403E-05 0.93961E-05
+project_edge: Rate,rate1 =  0.73007E-05 0.84608E-05
+project_edge: Rate,rate1 =  0.20986E-05 0.24940E-05
+project_edge: Rate,rate1 =  0.81428E-05 0.13439E-04
+project_edge: Rate,rate1 =  0.76386E-08 0.50259E-07
+ hp_strategy: edge_rate_max =    5.1014822964204612E-005
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    28   419 0.81125E-05
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           22
+ *********************************************
+ *************************************************
+ hp: ITERATION           22
+        NRDOFS =  2204 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.30655
+hp_strategy: error_est,rnorm =  0.73547E-03 0.78240E+02
+        NRDOFS =  2204 ERROR ESTIMATE IN PERCENT OF NORM =   0.30660
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.26996E-05 0.43322E-05
+project_edge: Rate,rate1 =  0.74288E-06 0.47507E-05
+project_edge: Rate,rate1 =  0.33752E-07 0.12745E-06
+project_edge: Rate,rate1 =  0.19216E-06 0.26878E-06
+project_edge: Rate,rate1 =  0.25411E-08 0.45524E-08
+project_edge: Rate,rate1 =  0.38468E-07 0.10346E-06
+project_edge: Rate,rate1 =  0.33065E-07 0.35553E-07
+project_edge: Rate,rate1 =  0.36148E-08 0.61072E-08
+project_edge: Rate,rate1 =  0.48998E-08 0.39952E-07
+project_edge: Rate,rate1 =  0.40464E-05 0.94012E-05
+project_edge: Rate,rate1 =  0.71477E-05 0.82678E-05
+project_edge: Rate,rate1 =  0.78038E-05 0.10191E-04
+project_edge: Rate,rate1 =  0.71239E-08 0.50449E-07
+ hp_strategy: edge_rate_max =    1.6050534961632539E-004
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    10   577 0.11321E-04
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           23
+ *********************************************
+ *************************************************
+ hp: ITERATION           23
+        NRDOFS =  2247 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.28543
+hp_strategy: error_est,rnorm =  0.63771E-03 0.78240E+02
+        NRDOFS =  2247 ERROR ESTIMATE IN PERCENT OF NORM =   0.28549
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.27041E-05 0.43369E-05
+project_edge: Rate,rate1 =  0.74774E-06 0.47472E-05
+project_edge: Rate,rate1 =  0.35120E-07 0.12705E-06
+project_edge: Rate,rate1 =  0.19216E-06 0.26878E-06
+project_edge: Rate,rate1 =  0.25388E-08 0.45509E-08
+project_edge: Rate,rate1 =  0.38468E-07 0.10346E-06
+project_edge: Rate,rate1 =  0.33065E-07 0.35553E-07
+project_edge: Rate,rate1 =  0.36124E-08 0.60915E-08
+project_edge: Rate,rate1 =  0.48998E-08 0.39952E-07
+project_edge: Rate,rate1 =  0.40464E-05 0.94012E-05
+project_edge: Rate,rate1 =  0.71477E-05 0.82678E-05
+project_edge: Rate,rate1 =  0.73267E-08 0.48883E-07
+project_edge: Rate,rate1 =  0.78020E-05 0.10187E-04
+project_edge: Rate,rate1 =  0.71268E-08 0.50447E-07
+ hp_strategy: edge_rate_max =    2.7839862242683647E-005
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    16   231 0.36201E-05
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           24
+ *********************************************
+ *************************************************
+ hp: ITERATION           24
+        NRDOFS =  2485 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.21619
+hp_strategy: error_est,rnorm =  0.36594E-03 0.78240E+02
+        NRDOFS =  2485 ERROR ESTIMATE IN PERCENT OF NORM =   0.21627
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.31047E-07 0.12811E-06
+project_edge: Rate,rate1 =  0.19370E-06 0.26917E-06
+project_edge: Rate,rate1 =  0.22519E-08 0.43564E-08
+project_edge: Rate,rate1 =  0.39030E-07 0.10421E-06
+project_edge: Rate,rate1 =  0.32265E-07 0.35169E-07
+project_edge: Rate,rate1 =  0.36318E-08 0.61056E-08
+project_edge: Rate,rate1 =  0.50573E-08 0.40374E-07
+project_edge: Rate,rate1 =  0.40447E-05 0.94036E-05
+project_edge: Rate,rate1 =  0.21856E-07 0.29138E-07
+project_edge: Rate,rate1 =  0.71479E-05 0.82678E-05
+project_edge: Rate,rate1 =  0.22820E-07 0.35310E-07
+project_edge: Rate,rate1 =  0.11787E-07 0.16344E-07
+project_edge: Rate,rate1 =  0.74297E-08 0.48797E-07
+project_edge: Rate,rate1 =  0.71129E-08 0.50432E-07
+ hp_strategy: edge_rate_max =    3.0361501794164132E-005
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   151   168 0.25406E-05
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           25
+ *********************************************
+ *************************************************
+ hp: ITERATION           25
+        NRDOFS =  2556 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.20134
+hp_strategy: error_est,rnorm =  0.31744E-03 0.78240E+02
+        NRDOFS =  2556 ERROR ESTIMATE IN PERCENT OF NORM =   0.20143
+        EFFICIENCY INDEX =    1.000   1.000
+project_edge: Rate,rate1 =  0.69498E-14 0.17254E-13
+project_edge: Rate,rate1 =  0.31201E-07 0.12806E-06
+project_edge: Rate,rate1 =  0.21491E-08 0.41976E-08
+project_edge: Rate,rate1 =  0.39048E-07 0.10421E-06
+project_edge: Rate,rate1 =  0.32294E-07 0.35214E-07
+project_edge: Rate,rate1 =  0.36368E-08 0.61097E-08
+project_edge: Rate,rate1 =  0.50572E-08 0.40374E-07
+project_edge: Rate,rate1 =  0.40447E-05 0.94036E-05
+project_edge: Rate,rate1 =  0.21856E-07 0.29138E-07
+project_edge: Rate,rate1 =  0.72103E-10 0.19899E-08
+project_edge: Rate,rate1 =  0.56009E-16 0.15049E-13
+project_edge: Rate,rate1 =  0.71490E-05 0.82670E-05
+project_edge: Rate,rate1 =  0.22840E-07 0.35190E-07
+project_edge: Rate,rate1 =  0.11590E-07 0.16236E-07
+project_edge: Rate,rate1 =  0.71129E-08 0.50432E-07
+ hp_strategy: edge_rate_max =    9.4035970605380116E-006
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    99    46 0.29117E-05
+ *********************************************
+ main: iter =           26
+ *********************************************
+ *************************************************
+ hp: ITERATION           26
+        NRDOFS =  3050 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.12007
+hp_strategy: error_est,rnorm =  0.11319E-03 0.78240E+02
+        NRDOFS =  3050 ERROR ESTIMATE IN PERCENT OF NORM =   0.12028
+        EFFICIENCY INDEX =    1.001   1.002
+project_edge: Rate,rate1 =  0.47966E-07 0.51929E-07
+project_edge: Rate,rate1 =  0.69498E-14 0.17254E-13
+project_edge: Rate,rate1 =  0.29693E-07 0.12856E-06
+project_edge: Rate,rate1 =  0.39177E-07 0.10418E-06
+project_edge: Rate,rate1 =  0.33580E-07 0.35047E-07
+project_edge: Rate,rate1 =  0.37198E-08 0.61023E-08
+project_edge: Rate,rate1 =  0.77210E-10 0.57230E-09
+project_edge: Rate,rate1 =  0.21939E-07 0.29172E-07
+project_edge: Rate,rate1 =  0.92223E-09 0.75502E-08
+project_edge: Rate,rate1 =  0.75857E-14 0.18596E-13
+project_edge: Rate,rate1 =  0.22747E-07 0.35238E-07
+project_edge: Rate,rate1 =  0.11625E-07 0.16238E-07
+ hp_strategy: edge_rate_max =    2.3853063785474054E-005
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    49   668 0.87819E-06
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           27
+ *********************************************
+ *************************************************
+ hp: ITERATION           27
+        NRDOFS =  3164 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.09259
+hp_strategy: error_est,rnorm =  0.67467E-04 0.78240E+02
+        NRDOFS =  3164 ERROR ESTIMATE IN PERCENT OF NORM =   0.09286
+        EFFICIENCY INDEX =    1.001   1.003
+project_edge: Rate,rate1 =  0.47966E-07 0.51929E-07
+project_edge: Rate,rate1 =  0.69498E-14 0.17254E-13
+project_edge: Rate,rate1 =  0.25292E-08 0.74825E-08
+project_edge: Rate,rate1 =  0.30945E-07 0.34757E-07
+project_edge: Rate,rate1 =  0.37201E-08 0.61025E-08
+project_edge: Rate,rate1 =  0.96302E-10 0.59407E-09
+project_edge: Rate,rate1 =  0.21897E-07 0.29144E-07
+project_edge: Rate,rate1 =  0.91964E-09 0.75472E-08
+project_edge: Rate,rate1 =  0.81695E-14 0.18554E-13
+project_edge: Rate,rate1 =  0.22741E-07 0.35242E-07
+project_edge: Rate,rate1 =  0.11625E-07 0.16238E-07
+ hp_strategy: edge_rate_max =    5.3384094197821248E-006
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    12   579 0.98199E-06
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           28
+ *********************************************
+ *************************************************
+ hp: ITERATION           28
+        NRDOFS =  3426 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.08021
+hp_strategy: error_est,rnorm =  0.50392E-04 0.78240E+02
+        NRDOFS =  3426 ERROR ESTIMATE IN PERCENT OF NORM =   0.08025
+        EFFICIENCY INDEX =    1.000   1.001
+project_edge: Rate,rate1 =  0.25280E-08 0.74837E-08
+project_edge: Rate,rate1 =  0.49113E-07 0.51423E-07
+project_edge: Rate,rate1 =  0.36975E-08 0.60880E-08
+project_edge: Rate,rate1 =  0.56061E-10 0.54425E-09
+project_edge: Rate,rate1 =  0.21897E-07 0.29144E-07
+project_edge: Rate,rate1 =  0.93096E-09 0.75391E-08
+project_edge: Rate,rate1 =  0.81589E-14 0.18564E-13
+project_edge: Rate,rate1 =  0.22746E-07 0.35240E-07
+project_edge: Rate,rate1 =  0.11501E-07 0.16165E-07
+ hp_strategy: edge_rate_max =    5.2458796302117015E-006
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    12   699 0.95047E-06
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           29
+ *********************************************
+ *************************************************
+ hp: ITERATION           29
+        NRDOFS =  3455 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.07369
+hp_strategy: error_est,rnorm =  0.42548E-04 0.78240E+02
+        NRDOFS =  3455 ERROR ESTIMATE IN PERCENT OF NORM =   0.07374
+        EFFICIENCY INDEX =    1.000   1.001
+project_edge: Rate,rate1 =  0.25280E-08 0.74837E-08
+project_edge: Rate,rate1 =  0.49112E-07 0.51423E-07
+project_edge: Rate,rate1 =  0.36917E-08 0.60840E-08
+project_edge: Rate,rate1 =  0.56060E-10 0.54425E-09
+project_edge: Rate,rate1 =  0.21897E-07 0.29144E-07
+project_edge: Rate,rate1 =  0.93096E-09 0.75391E-08
+project_edge: Rate,rate1 =  0.81589E-14 0.18564E-13
+project_edge: Rate,rate1 =  0.22746E-07 0.35240E-07
+project_edge: Rate,rate1 =  0.11502E-07 0.16164E-07
+ hp_strategy: edge_rate_max =    1.7652567997898855E-006
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =    15   702 0.25398E-06
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ *********************************************
+ main: iter =           30
+ *********************************************
+ *************************************************
+ hp: ITERATION           30
+        NRDOFS =  3917 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.05509
+hp_strategy: error_est,rnorm =  0.23817E-04 0.78240E+02
+        NRDOFS =  3917 ERROR ESTIMATE IN PERCENT OF NORM =   0.05517
+        EFFICIENCY INDEX =    1.001   1.001
+project_edge: Rate,rate1 =  0.71251E-08 0.83021E-08
+project_edge: Rate,rate1 =  0.25011E-08 0.74418E-08
+project_edge: Rate,rate1 =  0.49346E-07 0.51600E-07
+project_edge: Rate,rate1 =  0.22259E-10 0.69489E-09
+project_edge: Rate,rate1 =  0.36954E-08 0.60854E-08
+project_edge: Rate,rate1 =  0.60533E-10 0.55023E-09
+project_edge: Rate,rate1 =  0.21896E-07 0.29140E-07
+project_edge: Rate,rate1 =  0.93883E-09 0.75418E-08
+project_edge: Rate,rate1 =  0.22746E-07 0.35239E-07
+project_edge: Rate,rate1 =  0.11521E-07 0.16175E-07
+ hp_strategy: edge_rate_max =    1.7919951269794342E-006
+ allocds: WARNING !! DATA STRUCTURE ARRAYS HAVE NOT BEEN DEALLOCATED
+hp_strategy: iel_max,mdle,max element_error_rate =   165   381 0.16078E-06
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+ qoptimize: MAX ORDER HAS BEEN REACHED !
+
+
+
+

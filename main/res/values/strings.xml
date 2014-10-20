@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mr Cube</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu1">Start gry</string>
+    <string name="startFunc">startFunc</string>
+    <string name="Instrukcja">Instrukcja</string>
+    <string name="Ustawienia">Ustawienia</string>
+    <string name="Wyjscie">Wyjście</string>
+    <string name="Wstecz">Wstecz</string>
+    <string name="quit">quit</string>
+    <string name="back">back</string>
+    <string name="lvl1">lvl1</string>
+    <string name="lvl2">lvl2</string>
+    <string name="lvl3">lvl3</string>
+    <string name="lvl4">lvl4</string>
+    <string name="lvl5">lvl5</string>
+    <string name="lvl6">lvl6</string>
+    <string name="lvl7">lvl7</string>
+    <string name="lvl8">lvl8</string>
+    <string name="lvl9">lvl9</string>
+    <string name="lvl10">lvl10</string>
+    <string name="pz10">Poziom 10</string>
+    <string name="pz9">Poziom 9</string>
+    <string name="pz8">Poziom 8</string>
+    <string name="pz7">Poziom 7</string>
+    <string name="pz6">Poziom 6</string>
+    <string name="pz5">Poziom 5</string>
+    <string name="pz4">Poziom 4</string>
+    <string name="pz1">Poziom 1</string>
+    <string name="pz2">Poziom 2</string>
+    <string name="pz3">Poziom 3</string>
+    <string name="Autor">Autor</string>
+    <string name="instx">Instrukcja obsługi</string>
+    <string name="autortx">Michał Kramarczyk</string>
+    <string name="stat">Wyniki</string>
+    <string name="stat_txt">texty</string>
+    <string name="cheat">Wprowadź kod</string>
+    <string name="exec">executeCode</string>
+
+</resources>

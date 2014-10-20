@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AndEngine-GLES2/AndEngine-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngine-GLES2/AndEngine-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineAugmentedRealityExtension-GLES2/AndEngineAugmentedRealityExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineAugmentedRealityExtension-GLES2/AndEngineAugmentedRealityExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineLiveWallpaperExtension-GLES2/AndEngineLiveWallpaperExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineLiveWallpaperExtension-GLES2/AndEngineLiveWallpaperExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineMODPlayerExtension-master/AndEngineMODPlayerExtension-master.iml" filepath="$PROJECT_DIR$/../AndEngineMODPlayerExtension-master/AndEngineMODPlayerExtension-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineSVGTextureRegionExtension-GLES2/AndEngineSVGTextureRegionExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineSVGTextureRegionExtension-GLES2/AndEngineSVGTextureRegionExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineScriptingExtension-GLES2/AndEngineScriptingExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineScriptingExtension-GLES2/AndEngineScriptingExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineTMXTiledMapExtension-GLES2/AndEngineTMXTiledMapExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineTMXTiledMapExtension-GLES2/AndEngineTMXTiledMapExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEngineTexturePackerExtension-GLES2/AndEngineTexturePackerExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngineTexturePackerExtension-GLES2/AndEngineTexturePackerExtension-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+    </modules>
+  </component>
+</project>
+

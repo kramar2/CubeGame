@@ -1,0 +1,335 @@
+A     p=1  global  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  
+ TOTAL NDOF=    11    log10=0.1041E+01
+ TOTAL ERRORS:
+ L2:    0.2711E+00    log10=-.5669E+00
+ H1:    0.1312E+01    log10=0.1179E+00
+ MAX:   0.1645E+01    log10=0.2162E+00
+
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.5243E-01    log10=-.1280E+01
+ H1:    0.5674E+00    log10=-.2461E+00
+ MAX:   0.3988E+00    log10=-.3992E+00
+
+ TOTAL NDOF=    41    log10=0.1613E+01
+ TOTAL ERRORS:
+ L2:    0.3139E-02    log10=-.2503E+01
+ H1:    0.2428E+00    log10=-.6147E+00
+ MAX:   0.3644E-01    log10=-.1438E+01
+
+ TOTAL NDOF=    81    log10=0.1908E+01
+ TOTAL ERRORS:
+ L2:    0.4910E-03    log10=-.3309E+01
+ H1:    0.1374E+00    log10=-.8621E+00
+ MAX:   0.7614E-02    log10=-.2118E+01
+
+ TOTAL NDOF=   161    log10=0.2207E+01
+ TOTAL ERRORS:
+ L2:    0.1243E-03    log10=-.3906E+01
+ H1:    0.6915E-01    log10=-.1160E+01
+ MAX:   0.1928E-02    log10=-.2715E+01
+
+A     p=1  adapth  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ TOTAL NDOF=    11    log10=0.1041E+01
+ TOTAL ERRORS:
+ L2:    0.2711E+00    log10=-.5669E+00
+ H1:    0.1312E+01    log10=0.1179E+00
+ MAX:   0.1645E+01    log10=0.2162E+00
+
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.5243E-01    log10=-.1280E+01
+ H1:    0.5674E+00    log10=-.2461E+00
+ MAX:   0.3988E+00    log10=-.3992E+00
+
+ TOTAL NDOF=    36    log10=0.1556E+01
+ TOTAL ERRORS:
+ L2:    0.3136E-02    log10=-.2504E+01
+ H1:    0.2428E+00    log10=-.6147E+00
+ MAX:   0.3644E-01    log10=-.1438E+01
+
+ TOTAL NDOF=    43    log10=0.1633E+01
+ TOTAL ERRORS:
+ L2:    0.5044E-03    log10=-.3297E+01
+ H1:    0.1381E+00    log10=-.8599E+00
+ MAX:   0.7620E-02    log10=-.2118E+01
+
+ TOTAL NDOF=    57    log10=0.1756E+01
+ TOTAL ERRORS:
+ L2:    0.1455E-03    log10=-.3837E+01
+ H1:    0.7029E-01    log10=-.1153E+01
+ MAX:   0.1930E-02    log10=-.2714E+01
+
+A     p=1  adapt p  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ TOTAL NDOF=    11    log10=0.1041E+01
+ TOTAL ERRORS:
+ L2:    0.2711E+00    log10=-.5669E+00
+ H1:    0.1312E+01    log10=0.1179E+00
+ MAX:   0.1645E+01    log10=0.2162E+00
+
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.2027E+00    log10=-.6932E+00
+ H1:    0.1185E+01    log10=0.7388E-01
+ MAX:   0.1366E+01    log10=0.1355E+00
+
+ TOTAL NDOF=    30    log10=0.1477E+01
+ TOTAL ERRORS:
+ L2:    0.9400E-01    log10=-.1027E+01
+ H1:    0.5915E+00    log10=-.2281E+00
+ MAX:   0.6314E+00    log10=-.1997E+00
+
+ TOTAL NDOF=    39    log10=0.1591E+01
+ TOTAL ERRORS:
+ L2:    0.3676E-01    log10=-.1435E+01
+ H1:    0.2755E+00    log10=-.5599E+00
+ MAX:   0.2521E+00    log10=-.5984E+00
+
+ TOTAL NDOF=    48    log10=0.1681E+01
+ TOTAL ERRORS:
+ L2:    0.1199E-01    log10=-.1921E+01
+ H1:    0.1741E+00    log10=-.7592E+00
+ MAX:   0.9242E-01    log10=-.1034E+01
+
+A     p=1  adapt p h   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+ hp: ITERATION            1
+        NRDOFS =    17 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00171
+hp_strategy: error_est,rnorm =  0.60601E-08 0.49596E-01
+        NRDOFS =    17 ERROR ESTIMATE IN PERCENT OF NORM =   0.03496
+        EFFICIENCY INDEX =    4.522  19.498
+ *********************************************
+ main: iter =            2
+ *********************************************
+ *************************************************
+ hp: ITERATION            2
+        NRDOFS =    20 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00130
+hp_strategy: error_est,rnorm =  0.14720E-08 0.49596E-01
+        NRDOFS =    20 ERROR ESTIMATE IN PERCENT OF NORM =   0.01723
+        EFFICIENCY INDEX =    3.645  12.664
+ *********************************************
+ main: iter =            3
+ *********************************************
+ *************************************************
+ hp: ITERATION            3
+        NRDOFS =    22 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00099
+hp_strategy: error_est,rnorm =  0.31523E-09 0.49596E-01
+        NRDOFS =    22 ERROR ESTIMATE IN PERCENT OF NORM =   0.00797
+        EFFICIENCY INDEX =    2.838   7.681
+ *********************************************
+ main: iter =            4
+ *********************************************
+ *************************************************
+ hp: ITERATION            4
+        NRDOFS =    24 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00057
+hp_strategy: error_est,rnorm =  0.96720E-11 0.49596E-01
+        NRDOFS =    24 ERROR ESTIMATE IN PERCENT OF NORM =   0.00140
+        EFFICIENCY INDEX =    1.569   2.348
+ *********************************************
+ main: iter =            5
+ *********************************************
+ *************************************************
+ hp: ITERATION            5
+        NRDOFS =    25 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00002
+hp_strategy: error_est,rnorm =  0.70370E-11 0.49596E-01
+        NRDOFS =    25 ERROR ESTIMATE IN PERCENT OF NORM =   0.00119
+        EFFICIENCY INDEX =    7.332  51.260
+ *********************************************
+ main: iter =            6
+ *********************************************
+ *************************************************
+ hp: ITERATION            6
+        NRDOFS =    33 EXACT RELATIVE ERROR IN PERCENT OF ENERGY NORM =   0.00000
+hp_strategy: error_est,rnorm =  0.25468E-15 0.49596E-01
+        NRDOFS =    33 ERROR ESTIMATE IN PERCENT OF NORM =   0.00001
+        EFFICIENCY INDEX =    6.508  40.386
+
+
+
+A     p=2  global  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  
+
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.2027E+00    log10=-.6932E+00
+ H1:    0.1185E+01    log10=0.7388E-01
+ MAX:   0.1366E+01    log10=0.1355E+00
+
+ TOTAL NDOF=    41    log10=0.1613E+01
+ TOTAL ERRORS:
+ L2:    0.1468E-02    log10=-.2833E+01
+ H1:    0.1252E+00    log10=-.9023E+00
+ MAX:   0.1907E-01    log10=-.1720E+01
+
+ TOTAL NDOF=    81    log10=0.1908E+01
+ TOTAL ERRORS:
+ L2:    0.3758E-03    log10=-.3425E+01
+ H1:    0.7107E-01    log10=-.1148E+01
+ MAX:   0.7850E-02    log10=-.2105E+01
+
+ TOTAL NDOF=   161    log10=0.2207E+01
+ TOTAL ERRORS:
+ L2:    0.2360E-04    log10=-.4627E+01
+ H1:    0.1465E-01    log10=-.1834E+01
+ MAX:   0.7402E-03    log10=-.3131E+01
+
+ TOTAL NDOF=   321    log10=0.2507E+01
+ TOTAL ERRORS:
+ L2:    0.3020E-05    log10=-.5520E+01
+ H1:    0.3747E-02    log10=-.2426E+01
+ MAX:   0.1032E-03    log10=-.3986E+01
+
+A     p=2  adapt h  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ TOTAL NDOF=    21    log10=0.1322E+01
+ TOTAL ERRORS:
+ L2:    0.2027E+00    log10=-.6932E+00
+ H1:    0.1185E+01    log10=0.7388E-01
+ MAX:   0.1366E+01    log10=0.1355E+00
+
+ TOTAL NDOF=    39    log10=0.1591E+01
+ TOTAL ERRORS:
+ L2:    0.1468E-02    log10=-.2833E+01
+ H1:    0.1252E+00    log10=-.9023E+00
+ MAX:   0.1907E-01    log10=-.1720E+01
+
+ TOTAL NDOF=    45    log10=0.1653E+01
+ TOTAL ERRORS:
+ L2:    0.3859E-03    log10=-.3413E+01
+ H1:    0.7164E-01    log10=-.1145E+01
+ MAX:   0.7882E-02    log10=-.2103E+01
+
+ TOTAL NDOF=    57    log10=0.1756E+01
+ TOTAL ERRORS:
+ L2:    0.3443E-04    log10=-.4463E+01
+ H1:    0.1537E-01    log10=-.1813E+01
+ MAX:   0.7431E-03    log10=-.3129E+01
+
+ TOTAL NDOF=    83    log10=0.1919E+01
+ TOTAL ERRORS:
+ L2:    0.8240E-05    log10=-.5084E+01
+ H1:    0.4227E-02    log10=-.2374E+01
+ MAX:   0.1034E-03    log10=-.3986E+01
+
+
+A     p=3  global  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ TOTAL NDOF=    31    log10=0.1491E+01
+ TOTAL ERRORS:
+ L2:    0.9400E-01    log10=-.1027E+01
+ H1:    0.5915E+00    log10=-.2281E+00
+ MAX:   0.6314E+00    log10=-.1997E+00
+
+ TOTAL NDOF=    61    log10=0.1785E+01
+ TOTAL ERRORS:
+ L2:    0.1809E-02    log10=-.2743E+01
+ H1:    0.8790E-01    log10=-.1056E+01
+ MAX:   0.2014E-01    log10=-.1696E+01
+
+ TOTAL NDOF=   121    log10=0.2083E+01
+ TOTAL ERRORS:
+ L2:    0.2511E-04    log10=-.4600E+01
+ H1:    0.5048E-02    log10=-.2297E+01
+ MAX:   0.4481E-03    log10=-.3349E+01
+
+ TOTAL NDOF=   241    log10=0.2382E+01
+ TOTAL ERRORS:
+ L2:    0.1776E-05    log10=-.5750E+01
+ H1:    0.1694E-02    log10=-.2771E+01
+ MAX:   0.4969E-04    log10=-.4304E+01
+
+ TOTAL NDOF=   481    log10=0.2682E+01
+ TOTAL ERRORS:
+ L2:    0.1112E-06    log10=-.6954E+01
+ H1:    0.2106E-03    log10=-.3677E+01
+ MAX:   0.3363E-05    log10=-.5473E+01
+
+
+A     p=3  adapt h  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ TOTAL NDOF=    31    log10=0.1491E+01
+ TOTAL ERRORS:
+ L2:    0.9400E-01    log10=-.1027E+01
+ H1:    0.5915E+00    log10=-.2281E+00
+ MAX:   0.6314E+00    log10=-.1997E+00
+
+ TOTAL NDOF=    58    log10=0.1763E+01
+ TOTAL ERRORS:
+ L2:    0.1809E-02    log10=-.2743E+01
+ H1:    0.8790E-01    log10=-.1056E+01
+ MAX:   0.2014E-01    log10=-.1696E+01
+
+ TOTAL NDOF=    64    log10=0.1806E+01
+ TOTAL ERRORS:
+ L2:    0.3107E-04    log10=-.4508E+01
+ H1:    0.6649E-02    log10=-.2177E+01
+ MAX:   0.4861E-03    log10=-.3313E+01
+
+ TOTAL NDOF=    79    log10=0.1898E+01
+ TOTAL ERRORS:
+ L2:    0.3574E-05    log10=-.5447E+01
+ H1:    0.1875E-02    log10=-.2727E+01
+ MAX:   0.4820E-04    log10=-.4317E+01
+
+ TOTAL NDOF=   106    log10=0.2025E+01
+ TOTAL ERRORS:
+ L2:    0.2001E-05    log10=-.5699E+01
+ H1:    0.2941E-03    log10=-.3531E+01
+ MAX:   0.4868E-04    log10=-.4313E+01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="150" tilewidth="128" tileheight="128">
+ <tileset firstgid="1" name="atlas1" tilewidth="128" tileheight="128">
+
+  <image source="gfx/atlas1.png" trans="ff00ff" width="1025" height="896"/>
+
+    <tile id="0">
+     <properties>
+      <property name="flor" value="non"/>
+     </properties>
+    </tile>
+
+  <tile id="4">
+   <properties>
+    <property name="spawn" value="player"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="wall" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="exit" value="player"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="tri_wall" value="br"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="tri_wall" value="bl"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="tri_wall" value="br"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="tri_wall" value="bl"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="tri_wall" value="tr"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="tri_wall" value="tl"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="tri_wall" value="tr"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="tri_wall" value="tl"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="spawn" value="circle"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="spawn" value="cross"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="spawn" value="triangle"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="spawn" value="star"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="spawn" value="hexagon"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="150" height="150">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3cXW8aVxSF4WNQVTWWUkNTVSTtFVJ71VbK//9x9VFY6mKxzxSbpMyM34tHBjJ82Fnae3PmwOfW2mcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADc3bsZvAasy4f2JVc/z+C1YD3emXu/FqyDapVQs/A19Cx9evbw7GOjZuF2qlU9U8fTT3KFW3mt8lzRC3EL1SpHL8QtvAcmcoXX8h7ofZBeiNfKef3YzrNFL8RrZK2iZuFWU3OV54qahZeYmquY3/FaqlW7Z5t2nqNN3EYvxDXUA3t2difbk6pe0QtxDfVAz5X81eiFeLmc1/tcpUw9xOXMFb0QIzmve63atstsac6iF2LEa9WjUcY0Y1GzcC1lSrVKefL8eO2qeqJqFtl623IPqM9Vqk1at9J6w2Ors+Y1i32l61dlx/X6pGz0evNTO5+bNkZ90dcc/N/39nhev6aQu3n6r9yMzvF5vemZOJ5+KlvVDKVatTXKn2dqVM9GfZPczcNLcuNr5MpOzkled7Ju+YyVOVOulCmf83fxXL5eUa2vHovnqHJ377/9mv0af2vvW4fT/9GhXebKLx/aeZ48V8qWP8f3YdRL85yPv3/cnZ539NoO7XL9gkzdL185E+n/aJQrz5OfTz7Gce/tsnLxGI//1M57ou7vM1iu2SfPk9er/en3+20Gf+u3JrPlmfGMqY7163+2OmvpfTymcqVe1h/zqV3mKOc3+bt4TflaPU9kah7ZGtUu1SHlquqBx+K2zNV37Ut2lC3Plfe9nMtG7xd8DqNGzVdVuzwrOdv4dc9T1itlLmuScrUtnqvqd1O1UXkiU/NU1a6peeohbvOZvqqBvlaV79V+Cbpv1snsl3os8jR/o9qVqt7o9apnwNcd+nE9B5/iOF9j0BzuaxbK66b9myvPJplajqp2jWblfN/Yj1Ou+mVfd8j1MvVLZcvP9/haKzVqXUbvGX1dYW/H6Daf27MP+nkeHac61HPo+yAOrV5LJ1PLN9UXe6b8u2J0TM+L+qPP+7mGUX1u54e4Tp7Wq+qLypTWt9S3dJzmoVGudH+vVeqJOzuGTK2f50vnYPK9orJVrUvpWGVq0y7f43kfJE9vQ+7hy3UGz1bubcg9MZ6lrT1e5op9CeunTKln6bsXqrnc1wlGmfJ1qeyHXvvu/Xvj28nP21TncfKnsvVju5yn8nEya16z7v2749vJWuXrlVPrpx/tvjpPkzOXapav2dML16/6nlBlKs8bVjXnyW7XvOV7Rqvr9ML183rj56Kr+lLN8bl3oTpG+x2q46hZ61N979DU+Ryf50e5qrJYfcZQx1Gz1ifP63md+r3VWfFc7Vu9T8Jzp3Wwnqs/Bo9JrtYl3wOO5qpqXd0zVWXLVfutfL6nF66H98Cp/b+5H8vz5Ovl1fmgag9Xtd+KXrgevrZQ7R3NPaOjPKXRHsJcF8t9puRq+bxWVevpo373kvN51+TL1x/ohcs3+tzqaD/xLeeHR5/fyBzTC5cta5XnyvP0tfcaTNUv5vflq/Za/Z/766byRc1arrns/c189b2k+0aulii/Z2YO++ryeyXohcszpzylzNe9Xw+uN9dMOeXr3q8DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmKt/AJnnNYOQXwEA
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="150" height="150">
+  <object gid="54" x="9641" y="9225"/>
+ </objectgroup>
+</map>
